@@ -1,6 +1,6 @@
-# Talus Technologies — platform preview
+# Talos — platform preview
 
-Live preview: **https://vmgcompanies.github.io/talus-demo/**
+Live preview: **https://vmgcompanies.github.io/talos-demo/**
 
 A labor margin platform for commercial janitorial contractors. This repository
 holds the compiled preview build only; the application source is private.
