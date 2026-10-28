@@ -1,0 +1,1 @@
+const a=40;function r(e,n){const t=new Date(`${e}T00:00:00Z`);return t.setUTCDate(t.getUTCDate()+n),t.toISOString().slice(0,10)}function u(e,n){const t=[];let s=e;for(;s<=n;){const o=r(s,6);t.push({start:s,end:o>n?n:o}),s=r(s,7)}return t}function c(e,n){return e.findIndex(t=>n>=t.start&&n<=t.end)}export{a as O,c as a,u as w};

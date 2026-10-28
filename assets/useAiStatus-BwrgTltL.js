@@ -1,0 +1,1 @@
+import{r as e}from"./index-CjqwC993.js";import{b as a}from"./live-sso-ACbR.js";function f(){const[s,r]=e.useState(null);return e.useEffect(()=>{let t=!0;return a().then(u=>{t&&r(u)}),()=>{t=!1}},[]),s}export{f as u};

@@ -1,0 +1,1 @@
+import{d}from"./EntryForm-CGJMBpdI.js";function i(f,e,r,o,l){if(e)try{f.recordProvenance({recordType:r.recordType,recordId:r.recordId,fileName:e.source.fileName,fileBytes:e.source.bytes,documentKind:e.kind,reader:e.reader??"built-in",readerToken:e.readerToken,fileSha256:e.fileSha256??null,fields:d(e.fields.filter(c=>c.name in o),o)},l)}catch{}}export{i as r};

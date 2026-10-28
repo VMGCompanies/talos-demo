@@ -1,0 +1,1 @@
+function $(t=new Date,a){const e=g=>String(g).padStart(2,"0");return`${a??`${t.getFullYear()}-${e(t.getMonth()+1)}-${e(t.getDate())}`}T${e(t.getHours())}:${e(t.getMinutes())}:${e(t.getSeconds())}`}export{$ as d};
